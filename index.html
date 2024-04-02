@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+ />
+   <link rel="stylesheet" href="style.css">
+    <title>Responsive fruit Website</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Groco</a>
+        <nav class="navbar">
+<a href="#home">Home</a>
+<a href="#features">Features</a>
+<a href="#products">Products</a>
+<a href="#categories">Categories</a>
+<a href="#review">Review</a>
+<a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here....">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+         
+
+       <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/green-striped-ripe-watermelon-with-slice-cross-section-isolated-white-background-with-copy-space-text-images-special-kind-berry-sweet-pink-flesh-with-black-seeds-side-view.jpg" alt="">
+            <div class="content">
+                <h3>Watermelon</h3>
+                <span class="price"> $3.55</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/baked-chicken-drumsticks-honey-mustard-marinade.jpg" alt="">
+            <div class="content">
+                <h3>Carrot</h3>
+                <span class="price"> $3.55</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/onion2-removebg-preview.png" alt="">
+            <div class="content">
+                <h3>Watermelon</h3>
+                <span class="price"> $3.55</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        
+        <div class="total">total: $23.89</div>
+        <a href="#" class="btn">Check Out</a>
+       </div>
+
+
+       <form action="" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forgot your password<a href="#">Click here</a>
+        <p>Dont have an account?<a href="#">Create now</a>
+        <input type="submit" value="Login Now" class="btn ">
+
+       </form>
+    </header>
+    <!--header end here-->
+    <!--home-->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>fresh and<span>organic</span>products for you</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat facilis et molestias provident sequi dolore, maxime quam quibusdam, sapiente molestiae culpa quos hic tenetur reiciendis a. 
+                Quo officiis quibusdam minima!</p>
+                <a href="https://wa.me/+234 8128868691" class="btn">Shop now</a>
+        </div>
+    </section>
+    <!--home ends here-->
+    <!--feateur section-->
+    <section class="features" id="features">
+        <h1 class="heading">Our <span>Features</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="image/deliveryimage.jpg"alt="">
+                <h3>Fast delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ratione rem quasi, officia, quam ullam consequuntur sequi nulla corporis eaque praesentium in ipsa a
+                    rchitecto suscipit ut omnis beatae quaerat delectus.</p>
+                    <a href="#"class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="image/credit-card-payment-buy-sell-products-service.jpg"alt="">
+                <h3>Fast payment method</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ratione rem quasi, officia, quam ullam consequuntur sequi nulla corporis eaque praesentium in ipsa a
+                    rchitecto suscipit ut omnis beatae quaerat delectus.</p>
+                    <a href="#"class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="image/milk-glass-jug-wooden-table.jpg"alt="">
+                <h3>Fresh and organic</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ratione rem quasi, officia, quam ullam consequuntur sequi nulla corporis eaque praesentium in ipsa a
+                    rchitecto suscipit ut omnis beatae quaerat delectus.</p>
+                    <a href="#"class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+    <!--feature section ends here-->
+    
+           
+
+   <!--products-->
+
+   <section class="products" id="products">
+    <h1 class="heading">Our<span>products</span></h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="image/onion2-removebg-preview.png" alt="">
+                <h3>Fresh Onion</h3>
+                <div class="price">$4.99-10.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>
+                <a href="#" class="btn">Add to Cart </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/avocado-products-made-from-avocados-food-nutrition-concept.jpg" alt="">
+                <h3>Avocado</h3>
+                <div class="price">$4.99-10.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>
+                <a href="#" class="btn">Add to Cart </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/red-onion.jpg" alt="">
+                <h3>Fresh RedOnion</h3>
+                <div class="price">$4.99-10.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>
+                <a href="#" class="btn">Add to Cart </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/assortment-ginger-wooden-board.jpg" alt="">
+                <h3>Fresh Ginger</h3>
+                <div class="price">$4.99-10.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>
+                <a href="#" class="btn">Add to Cart </a>
+            </div>
+        </div>
+    </div>
+
+<!--another products-->
+
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="image/onion2-removebg-preview.png" alt="">
+                <h3>Fresh Orange</h3>
+                <div class="price">$4.99-10.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>
+                <a href="#" class="btn">Add to Cart </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/egg.jpeg" alt="">
+                <h3>Egg</h3>
+                <div class="price">$4.99-10.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>
+                <a href="#" class="btn">Add to Cart </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/tomatoes.jpg" alt="">
+                <h3>Fresh Tomatoes</h3>
+                <div class="price">$4.99-10.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>
+                <a href="#" class="btn">Add to Cart </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/watermelon.jpeg" alt="">
+                <h3>Fresh Watremelon</h3>
+                <div class="price">$4.99-10.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>
+                <a href="#" class="btn">Add to Cart </a>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!--products ends here-->
+
+<!--categoreis strt here-->
+<section class="categories" id="categories">
+    <h1 class="heading">Product<span>Categories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="image/top-view-fruits-like-grapepearpeach-wooden-bowl-sack-cloth-red-background.jpg"alt="">
+            <h3>Grape</h3>
+            <p>Up to 45% off</p>
+            <a href="#"class="btn">Shop now</a>
+        </div>
+        <div class="box">
+            <img src="image/onion2-removebg-preview.png"alt="">
+            <h3>fresh onions</h3>
+            <p>Up to 45% off</p>
+            <a href="#"class="btn">Shop now</a>
+        </div>
+        <div class="box">
+            <img src="image/carrot.jpeg"alt="">
+            <h3>Carrots</h3>
+            <p>Up to 45% off</p>
+            <a href="#"class="btn">Shop now</a>
+        </div>
+        <div class="box">
+            <img src="image/watermelon.jpeg"alt="">
+            <h3>Watermelon</h3>
+            <p>Up to 45% off</p>
+            <a href="#"class="btn">Shop now</a>
+        </div>
+        <div class="box">
+            <img src="image/milk-glass-jug-wooden-table.jpg"alt="">
+            <h3>Organic Milk</h3>
+            <p>Up to 45% off</p>
+            <a href="#"class="btn">Shop now</a>
+        </div>
+        <div class="box">
+            <img src="image/baked-chicken-drumsticks-honey-mustard-marinade.jpg"alt="">
+            <h3>Grilled Chicken</h3>
+            <p>Up to 45% off</p>
+            <a href="#"class="btn">Shop now</a>
+        </div>
+
+
+    </div>
+    <a href="https://wa.me/+234 8128868691"class="btn">Order Now</a>
+   
+</section>
+<!--categoreis end here-->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Groco<i class="fas fa-shopping-basket"></i></h3>
+           <h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officiis nam illum, iure est et excepturi dolorem quia magni quos. Quam asperiores reiciendis quae repudiandae sed! Dignissimos labore maiores numquam.</h4>
+            </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook">Gorco grocerystore</a>
+                <a href="#" class="fab fa-twitter">gorcostore</a>
+                <a href="#" class="fab fa-whatsapp">@gorco store</a>
+                <a href="#" class="fab fa-instagram">_@gorco store</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <h3>Contact info</i></h3>
+           <a href="#" class="links"><i class="fas fa-arrow-phone">+234 8128868691</i></a><br><br>
+           <a href="#" class="links"><i class="fas fa-arrow-phone">+234 8143846186</i></a><br><br>
+           <a href="#" class="links"><i class="fas fa-arrow-envelope">jifbbfffnn@gmail.com</i></a>
+        </div>
+
+        <div class="box">
+            <h3>About Us</i></h3>
+           <p>
+          <h4>  "Gorco Grocery Store is your neighborhood,<br> destination for fresh produce, pantry staples, and household essentials. <br>With a focus on quality, convenience, and friendly service,<br> we provide a diverse selection of products to meet all your daily needs. From farm-fresh produce to locally sourced goods,<br> we're committed to serving our community with excellence.</p></h4>
+        </div>
+
+
+    </div>
+</section>
+<!--footer section-->
+
+
+
+
+
+<!--footer section ends here-->
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

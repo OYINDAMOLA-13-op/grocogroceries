@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "image",
+			"path": "../image"
+		},
+		{
+			"name": "web1",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web1"
+	}
+}
